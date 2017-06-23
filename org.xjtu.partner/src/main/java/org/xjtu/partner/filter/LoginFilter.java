@@ -1,4 +1,4 @@
-package org.xjtusicd3.partner.filter;
+package org.xjtu.partner.filter;
 
 import java.io.IOException;
 
