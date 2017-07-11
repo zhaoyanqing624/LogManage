@@ -7,6 +7,6 @@ import org.xjtusicd3.database.logic.IBaseDao;
 import org.xjtusicd3.database.model.UserPersistence;
 
 public interface UserPersistenceMapper extends IBaseDao<UserPersistenceMapper, String>{
-	@Select("SELECT * FROM user")
+	@Select("SELECT * FROM TBL_User")
 	public List<UserPersistence> userList();
 }

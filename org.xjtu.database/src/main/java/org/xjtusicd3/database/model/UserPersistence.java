@@ -2,21 +2,20 @@ package org.xjtusicd3.database.model;
 
 import org.xjtusicd3.database.ann.Table;
 
-@Table(tablename="duo")
+@Table(tablename="TBL_User")
 public class UserPersistence {
-	private String userId;
-	private String userName;
-	public String getUserId() {
-		return userId;
+	private String USERID;
+	private String USERNAME;
+	public String getUSERID() {
+		return USERID;
 	}
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setUSERID(String uSERID) {
+		USERID = uSERID;
 	}
-	public String getUserName() {
-		return userName;
+	public String getUSERNAME() {
+		return USERNAME;
 	}
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUSERNAME(String uSERNAME) {
+		USERNAME = uSERNAME;
 	}
-	
 }
